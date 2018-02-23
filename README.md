@@ -1,15 +1,15 @@
-# nofrils-acme
+# nofrils-theme
 
 A port of the [No Frils Acme](https://github.com/robertmeta/nofrils)
 Vim theme to Emacs.
 
 ## What
 
-Very minimal syntax highlighting, to reduce distractions.  Some syntax
-highlighting is available, to attenuate comments and enhance errors,
-but otherwise this looks a lot like `(global-font-lock-mode -1)`.  The
-primary benefit is that other emacs features that rely on the
-font-lock machinery can still work.
+Very minimal syntax highlighting, to reduce distractions.  Some coloring
+is available, to attenuate comments and enhance errors, but otherwise
+it looks a lot like `(global-font-lock-mode -1)`.  The primary benefit
+is that other emacs features that rely on the font-lock machinery can
+still be used.
 
 ## Similar themes
 
