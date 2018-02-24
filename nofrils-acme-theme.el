@@ -4,7 +4,7 @@
 (let ((background "#FFFFD7")
       (foreground "#000000")
       (comment "#AF8700")
-      (err "#FF5555")
+      (error "#FF5555")
       (fringe "#EAFFFF")
       (search "#40883F")
       (selection "#CCCC7C")
@@ -16,6 +16,7 @@
    `(default ((t :background ,background :foreground ,foreground)))
 
    ;; Highlight only comments and errors.
+   `(error ((t :background "white" :foreground ,error)))
    `(font-lock-builtin-face ((t nil)))
    `(font-lock-comment-face ((t :foreground ,comment)))
    `(font-lock-constant-face ((t nil)))
@@ -27,7 +28,6 @@
    `(font-lock-string-face ((t nil)))
    `(font-lock-type-face ((t nil)))
    `(font-lock-variable-name-face ((t nil)))
-   `(font-lock-warning-face ((t :background "white" :foreground ,err)))
 
    ;; Show searches and selections.
    `(isearch ((t :background ,search :foreground "white")))
@@ -36,7 +36,7 @@
 
    ;; Parenthesis matching is never wrong.
    `(show-paren-match ((t :weight bold)))
-   `(show-paren-mismatch ((t :background ,err :weight bold)))
+   `(show-paren-mismatch ((t :background ,error :weight bold)))
 
    ;; Decorate the frame to resemble Acme.
    `(fringe ((t :background ,fringe)))

@@ -5,11 +5,13 @@ Vim theme to Emacs.
 
 ## What
 
-Very minimal syntax highlighting, to reduce distractions.  Some coloring
-is available, to attenuate comments and enhance errors, but otherwise
-it looks a lot like `(global-font-lock-mode -1)`.  The primary benefit
-is that other emacs features that rely on the font-lock machinery can
+Minimal syntax highlighting, to reduce distractions.  Some coloring is
+available, to attenuate comments and enhance errors, but otherwise it
+looks a lot like `(global-font-lock-mode -1)`.  The primary benefit is
+that other emacs features that rely on the font-lock machinery can
 still be used.
+
+![Screenshot](screenshot.png)
 
 ## Similar themes
 
