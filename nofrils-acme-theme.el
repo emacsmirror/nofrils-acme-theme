@@ -1,3 +1,31 @@
+;;; nofrils-acme-theme.el --- Port of "No Frils Acme" Vim theme.
+
+;; Copyright (c) 2018 Eric Sessoms
+;; See COPYING for details.
+
+;; Author: Eric Sessoms <esessoms@protonmail.com>
+;; Package-Requires: ((emacs "24"))
+;; URL: https://gitlab.com/esessoms/nofrils-theme
+;; Version: 0.1.0
+
+;; This file is not part of GNU Emacs.
+
+;;; Commentary:
+
+;; Minimal syntax highlighting to reduce distractions.  Only
+;; highlights comments and errors by default.  High-contrast
+;; black-on-yellow and other colors inspired by Plan 9's Acme.
+
+;; (require 'nofrils-acme-theme)
+;; (load-theme 'nofrils-acme t)
+
+;;; Credits:
+
+;; This theme was ported from No Frils Acme by Robert Melton.
+;; https://github.com/robertmeta/nofrils
+
+;;; Code:
+
 (deftheme nofrils-acme
   "Port of No Frils Acme by Robert Melton.")
 
@@ -48,6 +76,8 @@
    `(org-done ((t :weight bold)))
    `(org-todo ((t :weight bold)))))
 
+;;; Footer:
+
 ;;;###autoload
 (when load-file-name
   (add-to-list
@@ -55,3 +85,7 @@
    (file-name-as-directory (file-name-directory load-file-name))))
 
 (provide-theme 'nofrils-acme)
+
+(provide 'nofrils-acme-theme)
+
+;;; nofrils-acme-theme.el ends here
