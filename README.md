@@ -1,3 +1,6 @@
+[![MELPA Stable](https://stable.melpa.org/packages/nofrils-acme-theme-badge.svg)](https://stable.melpa.org/#/nofrils-acme-theme)
+[![MELPA](https://melpa.org/packages/nofrils-acme-theme-badge.svg)](https://melpa.org/#/nofrils-acme-theme)
+
 # nofrils-theme
 
 A port of the [No Frils Acme](https://github.com/robertmeta/nofrils)
@@ -13,7 +16,7 @@ still be used.
 
 ## Install
 
-1. Add [MELPA](https://melpa.org/) to your package sources.
+1. Add [MELPA Stable](https://stable.melpa.org/) or [MELPA](https://melpa.org/) to your package sources.
 2. Install with `M-x package-install RET nofrils-acme-theme RET`.
 3. Add `(require 'nofrils-acme-theme)` to your init-file.
 4. Activate with `(load-theme 'nofrils-acme t)`.
